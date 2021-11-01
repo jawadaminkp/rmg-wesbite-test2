@@ -1,0 +1,369 @@
+*, ::after, ::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-section {
+  width: 80%;
+  height: 100%;
+  background-color: aquamarine;
+}
+
+.main-section .service-header {
+  width: 100%;
+  height: 100vh;
+  border: 2px solid orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-section .service-header .service-heading {
+  width: 47%;
+  height: 100%;
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-section .service-header .service-heading .h1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid yellow;
+}
+
+.main-section .service-header .service-heading .h1 h1 {
+  font-size: 130px;
+  text-align: center;
+}
+
+.main-section .service-header .service-paragraph {
+  width: 47%;
+  height: 100%;
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-section .service-header .service-paragraph .para-heading {
+  width: 100%;
+  height: 54%;
+  border: 1px solid #36361c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main-section .service-header .service-paragraph .para-heading h1 {
+  font-size: 50px;
+}
+
+.main-section .service-header .service-paragraph .para-content {
+  width: 100%;
+  height: 40%;
+  border: 1px solid #36361c;
+}
+
+.main-section .service-header .service-paragraph .para-content p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.main-section .service-cards {
+  width: 100%;
+  height: 120vh;
+  border: 2px solid olivedrab;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-section .service-cards .row-1-cards {
+  width: 100%;
+  height: 47%;
+  border: 1px solid green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-section .service-cards .row-1-cards .card-style {
+  width: 30%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.main-section .service-cards .row-2-cards {
+  width: 100%;
+  height: 47%;
+  border: 1px solid green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-section .service-cards .row-2-cards .card-style {
+  width: 30%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.card-content-style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-content-style .service-pic {
+  width: 100%;
+  height: 70%;
+  border: 1px solid indigo;
+}
+
+.card-content-style .card-heading {
+  width: 100%;
+  height: 14%;
+  border: 1px solid indigo;
+}
+
+.card-content-style .card-paragraph {
+  width: 100%;
+  height: 14%;
+  border: 1px solid indigo;
+}
+
+.s1-bg {
+  background-image: url("/asset/img/s1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s2-bg {
+  background-image: url("/asset/img/s2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s3-bg {
+  background-image: url("/asset/img/s3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s4-bg {
+  background-image: url("/asset/img/s4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s5-bg {
+  background-image: url("/asset/img/s5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s6-bg {
+  background-image: url("/asset/img/s6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-paragraph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .service-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: auto !important;
+  }
+  .service-header .service-heading {
+    width: 100% !important;
+    height: 100%;
+    border: 2px solid black;
+  }
+  .service-header .service-heading .h1 h1 {
+    font-size: 70px !important;
+  }
+  .service-header .service-paragraph {
+    width: 100% !important;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .service-header .service-paragraph .para-heading {
+    width: 100%;
+    height: 47%;
+    border: 1px solid #36361c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .service-header .service-paragraph .para-heading h1 {
+    text-align: center;
+    font-size: 40px !important;
+  }
+  .service-header .service-paragraph .para-content {
+    width: 100%;
+    height: 47%;
+    border: 1px solid #36361c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .service-header .service-paragraph .para-content p {
+    text-align: center;
+    line-height: 15px !important;
+    font-size: 14px !important;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .service-cards {
+    height: auto !important;
+  }
+  .service-cards .row-1-cards {
+    margin-top: 40px;
+    width: 100%;
+    height: auto !important;
+    border: 1px solid green;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .service-cards .row-1-cards .card-style {
+    width: 100% !important;
+    height: 300px !important;
+    border: 1px solid black;
+    margin-top: 16px;
+  }
+  .service-cards .row-2-cards {
+    width: 100%;
+    height: auto !important;
+    border: 1px solid green;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .service-cards .row-2-cards .card-style {
+    width: 100% !important;
+    height: 300px !important;
+    border: 1px solid black;
+  }
+}
+/*# sourceMappingURL=style.css.map */
