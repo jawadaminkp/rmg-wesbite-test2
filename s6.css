@@ -293,7 +293,7 @@ body {
             align-items: center;
   }
   .service-6-header-section .service-image img {
-    width: 250px !important;
+    width: 100% !important;
     height: 200px !important;
   }
 }
