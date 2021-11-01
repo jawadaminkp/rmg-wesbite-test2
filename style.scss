@@ -206,7 +206,6 @@ body{
 @media screen and (max-width: 480px) {
 
     .service-header{
-
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -279,6 +278,16 @@ body{
 
 
 // media query for service cards
+
+
+@media screen and (max-width: 480px) {
+
+    .main-section{
+        width: 100%; }
+
+}
+
+
 
 
 @media screen and (max-width: 480px) {
