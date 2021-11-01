@@ -320,6 +320,12 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  .main-section {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .service-cards {
     height: auto !important;
   }

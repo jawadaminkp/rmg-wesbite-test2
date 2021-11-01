@@ -352,4 +352,10 @@ body {
     border: 1px solid blue;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .main-section {
+    width: 100% !important;
+  }
+}
 /*# sourceMappingURL=s2.css.map */
